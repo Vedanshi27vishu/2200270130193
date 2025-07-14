@@ -1,6 +1,6 @@
-# Stock Price Frontend
+# Stock Price API
 
-Quick React frontend for stock price visualization.
+Quick Express API for stock price calculations.
 
 ## Setup
 
@@ -15,28 +15,24 @@ Quick React frontend for stock price visualization.
    ```
    REACT_APP_API_URL=http://localhost:9000
    PORT=9000
+
    ```
 
-3. Start app:
-
+3. Start server:
    ```
    npm start
    ```
 
+## Endpoints
+
+- `GET /stocks/:ticker?minutes=m&aggregation=average` - Get average stock price
+- `GET /stockcorrelation?minutes=m&ticker={T1}&ticker={T2}` - Get correlation
+
+
    ## Screenshots
 
-   ### Stock Price Page Laptop
+   ### Average Stock Price
+   ![Stock Price](output/Average%20stock%20price.png)
 
-   ![Stock Price Page](output/stock%20page%20laptop.png)
-
-   ### Stock Price Page mobile
-
-   ![Stock Price Page](output/stock%20page%20mobile.png)
-
-   ### Correlation Page laptop
-
-   ![Correlation Page](output/correlation%20laptop.png)
-
-   ### Correlation Page mobile
-
-   ![Correlation Page](output/correlation%20mobile.png)
+   ### Correlation 
+   ![Correlation Page](output/Correlation.png)
