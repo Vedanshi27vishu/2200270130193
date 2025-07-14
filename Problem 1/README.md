@@ -36,3 +36,18 @@ Quick Express API for stock price calculations.
 
    ### Correlation 
    ![Correlation Page](output/Correlation.png)
+
+
+## Additional Hosted Endpoints
+
+- https://two200270130193.onrender.com/
+
+
+   ## Screenshots
+
+   ### Average Stock Price
+   ![Stock Price](output/Average%20stock%20price.png)
+
+   ### Correlation 
+   ![Correlation Page](output/Correlation.png)
+
