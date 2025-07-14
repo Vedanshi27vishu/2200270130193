@@ -20,7 +20,7 @@ Quick Express API for stock price calculations.
 
 3. Start server:
    ```
-   npm start
+   npm server
    ```
 
 ## Endpoints
