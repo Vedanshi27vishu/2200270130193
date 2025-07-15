@@ -22,5 +22,13 @@
     "expiry": "2025-07-15T08:15:32.663Z",
     "clicks": 0,
     "clickData": []
+  },
+  {
+    "originalUrl": "https://www.google.com/search?q=google+.com&rlz=1C1CHBF_enIN1080IN1080&oq=google+.com&gs_lcrp=EgZjaHJvEUYCAEQABiABDIHCAIQABiABDIHCAMQABiABDIGCAQQRRhBMgYIBRBFGDwyBggGEEUYQTIGCAcQRRg80gEIMjc1NmowajeoAgCwAgA&sourceid=chrome&ie=UTF-8",
+    "shortCode": "abcd0",
+    "createdAt": "2025-07-15T07:55:29.003Z",
+    "expiry": "2025-07-15T08:05:28.984Z",
+    "clicks": 0,
+    "clickData": []
   }
 ]
