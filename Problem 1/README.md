@@ -1,6 +1,6 @@
-# Stock Price API
+# LOGGING MIDDLEWARE
 
-Quick Express API for stock price calculations.
+Develop a reusable TypeScript/JavaScript logging middleware that captures all significant application events and sends them to a test server via API for frontend use.
 
 ## Setup
 
@@ -25,29 +25,7 @@ Quick Express API for stock price calculations.
 
 ## Endpoints
 
-- `GET /stocks/:ticker?minutes=m&aggregation=average` - Get average stock price
-- `GET /stockcorrelation?minutes=m&ticker={T1}&ticker={T2}` - Get correlation
+- POST - http://localhost:9000/log [To get logID]
 
 
-   ## Screenshots
-
-   ### Average Stock Price
-   ![Stock Price](output/Average%20stock%20price.png)
-
-   ### Correlation 
-   ![Correlation Page](output/Correlation.png)
-
-
-## Additional Hosted Endpoints
-
-- https://two200270130193.onrender.com/
-
-
-   ## Screenshots
-
-   ### Average Stock Price
-   ![Stock Price](output/Average%20stock%20price.png)
-
-   ### Correlation 
-   ![Correlation Page](output/Correlation.png)
 
