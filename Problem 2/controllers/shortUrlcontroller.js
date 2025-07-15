@@ -27,7 +27,7 @@ const createShortUrl = (req, res) => {
 
   logInfo("handler", `Short URL '${shortCode}' created`);
 
-  // Use BASE_URL from env or construct from request
+
   const baseUrl = process.env.BASE_URL || `${req.protocol}://${req.get('host')}`;
   res.status(201).json({
     shortLink: `${baseUrl}/${shortCode}`,
