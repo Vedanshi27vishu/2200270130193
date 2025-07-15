@@ -3,16 +3,11 @@ const router = express.Router();
 const {
   createShortUrl,
   getUrlStats,
-  redirectToOriginal
-} = require('../Controllers/urlController');
+  redirectToOriginalUrl
+} = require('../controllers/shortUrlcontroller');
 
-// Create Short URL
-router.post('/', createShortUrl);
-
-// Get stats
-router.get('/:shortcode', getUrlStats);
-
-// Redirect (you may optionally separate this if needed)
-router.get('/:shortcode/redirect', redirectToOriginal);
+router.post('/shorturls', createShortUrl);
+router.get('/shorturls/:shortcode', getUrlStats);
+router.get('/:shortcode', redirectToOriginalUrl);
 
 module.exports = router;

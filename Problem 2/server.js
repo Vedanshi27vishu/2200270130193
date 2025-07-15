@@ -1,6 +1,15 @@
-const app = require('./app');
-const port = process.env.PORT || 9001;
+require('dotenv').config();
+const express = require('express');
+const logger = require('./middlewares/logger');
+const urlRoutes = require('./Routes/urlroutes');
+const { registerApp } = require('./services/register');
 
-app.listen(port, () => {
-  console.log(`Server is running on port ${port}`);
+const app = express();
+app.use(express.json());
+app.use(logger);
+app.use('/', urlRoutes);
+
+app.listen(process.env.PORT, async () => {
+  console.log(`Server running at http://localhost:${process.env.PORT}`);
+  await registerApp();
 });

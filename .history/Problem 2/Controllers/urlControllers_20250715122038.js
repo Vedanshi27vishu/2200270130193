@@ -1,5 +1,6 @@
 const shortid = require('shortid');
 const Log = require('../Pro');
+const logs = require("../../Problem 1/")
 
 let urlDatabase = {}; // In-memory for now
 
