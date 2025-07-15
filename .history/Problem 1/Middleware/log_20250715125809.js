@@ -12,7 +12,7 @@ const PACKAGES = {
   common: ["auth", "config", "middleware", "utils"]
 };
 
-
+// Common function to send log to the API
 async function sendLog(stack, level, pkg, message) {
   stack = stack.toLowerCase();
   level = level.toLowerCase();
@@ -43,6 +43,7 @@ async function sendLog(stack, level, pkg, message) {
   return data;
 }
 
+// ✅ Named functions to export
 const logInfo = async (pkg, message) => {
   try {
     await sendLog("backend", "info", pkg, message);

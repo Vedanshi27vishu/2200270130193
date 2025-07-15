@@ -1,6 +1,18 @@
-const { logInfo } = require('../../Problem 1/Middleware/log');
-
-module.exports = (req, res, next) => {
-  logInfo("handler", `${req.method} ${req.originalUrl}`);
+function logger(req, res, next) {
+  console.log(`${req.method} ${req.url}`);
   next();
+}
+
+function logError(error) {
+  console.error(error);
+}
+
+function logInfo(source, message) {
+  console.log(`[INFO] [${source}] ${message}`);
+}
+
+module.exports = {
+  logger,
+  logError,
+  logInfo
 };

@@ -1,0 +1,26 @@
+[
+  {
+    "originalUrl": "https://www.google.com/search?q=google+.com&rlz=1C1CHBF_enIN1080IN1080&oq=google+.com&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIGCAQQRRhBMgYIBRBFGDwyBggGEEUYQTIGCAcQRRg80gEIMjc1NmowajeoAgCwAgA&sourceid=chrome&ie=UTF-8",
+    "shortCode": "abcd1",
+    "createdAt": "2025-07-15T07:30:35.896Z",
+    "expiry": "2025-07-15T08:00:35.894Z",
+    "clicks": 0,
+    "clickData": []
+  },
+  {
+    "originalUrl": "https://www.google.com/search?q=google+.com&rlz=1C1CHBF_enIN1080IN1080&oq=google+.com&gs_lcrp=EgZjaHJvEUYOTIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIGCAQQRRhBMgYIBRBFGDwyBggGEEUYQTIGCAcQRRg80gEIMjc1NmowajeoAgCwAgA&sourceid=chrome&ie=UTF-8",
+    "shortCode": "abcd2",
+    "createdAt": "2025-07-15T07:43:41.968Z",
+    "expiry": "2025-07-15T08:13:41.967Z",
+    "clicks": 0,
+    "clickData": []
+  },
+  {
+    "originalUrl": "https://www.google.com/search?q=google+.com&rlz=1C1CHBF_enIN1080IN1080&oq=google+.com&gs_lcrp=EgZjaHJvEUYOTIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIGCAQQRRhBMgYIBRBFGDwyBggGEEUYQTIGCAcQRRg80gEIMjc1NmowajeoAgCwAgA&sourceid=chrome&ie=UTF-8",
+    "shortCode": "abcd8",
+    "createdAt": "2025-07-15T07:45:32.664Z",
+    "expiry": "2025-07-15T08:15:32.663Z",
+    "clicks": 0,
+    "clickData": []
+  }
+]

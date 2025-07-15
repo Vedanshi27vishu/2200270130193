@@ -1,6 +1,6 @@
 const { nanoid } = require('nanoid');
 const { readData, writeData } = require('../utils/fileStorage');
-const { logInfo, logError } = require('../services/register');
+const { logInfo, logError } = require('../middlewares/logger');
 
 const createShortUrl = (req, res) => {
   const { url, validity = 30, shortcode } = req.body;
