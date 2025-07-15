@@ -32,10 +32,10 @@ Quick Express API for URL Shortner
    ## Screenshots
 
    ### POST Response
-   ![Shortening of Instagram URL](https://drive.google.com/file/d/1ICuVj2pYbeGOGVAYbnfLzSHSq_EapCR9/view?usp=sharing)
+   ![Shortening of Instagram URL] https://drive.google.com/file/d/1ICuVj2pYbeGOGVAYbnfLzSHSq_EapCR9/view?usp=sharing 
 
    ### Correlation 
-   ![Page Of Facebook [I forgot to take screenshot of Instagram Page.]](https://drive.google.com/file/d/1SV_BjBQgMYzJ6LEcB8wbLK8FJkR_fdaj/view?usp=sharing)
+   ![Page Of Facebook [I forgot to take screenshot of Instagram Page.]] https://drive.google.com/file/d/1SV_BjBQgMYzJ6LEcB8wbLK8FJkR_fdaj/view?usp=sharing
 
 
 
