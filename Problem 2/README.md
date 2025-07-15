@@ -1,6 +1,6 @@
-# Stock Price API
+# HTTP URL SHORTNER MICROSERVICE API
 
-Quick Express API for stock price calculations.
+Quick Express API for URL Shortner
 
 ## Setup
 
@@ -20,33 +20,22 @@ Quick Express API for stock price calculations.
 
 3. Start server:
    ```
-   npm start
+   node server
    ```
 
 ## Endpoints
 
-- `GET /stocks/:ticker?minutes=m&aggregation=average` - Get average stock price
-- `GET /stockcorrelation?minutes=m&ticker={T1}&ticker={T2}` - Get correlation
+- POST-   http://localhost:9001/shorturls- To shorten the URL. [Will expires in 30 mins by default]
+- GET-    http://localhost:9001/uniqueID- To shorten the URL.
 
 
    ## Screenshots
 
-   ### Average Stock Price
-   ![Stock Price](output/Average%20stock%20price.png)
+   ### POST Response
+   ![Shortening of Instagram URL](https://drive.google.com/file/d/1ICuVj2pYbeGOGVAYbnfLzSHSq_EapCR9/view?usp=sharing)
 
    ### Correlation 
-   ![Correlation Page](output/Correlation.png)
+   ![Page Of Facebook [I forgot to take screenshot of Instagram Page.]](https://drive.google.com/file/d/1SV_BjBQgMYzJ6LEcB8wbLK8FJkR_fdaj/view?usp=sharing)
 
 
-## Additional Hosted Endpoints
 
-- https://two200270130193.onrender.com/
-
-
-   ## Screenshots
-
-   ### Average Stock Price
-   ![Stock Price](output/Average%20stock%20price.png)
-
-   ### Correlation 
-   ![Correlation Page](output/Correlation.png)
